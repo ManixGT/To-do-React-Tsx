@@ -1,5 +1,4 @@
 import { createContext, useState, useContext } from "react";
-import React from "react";
 import { ReactNode } from "react";
 
 export type TodosProviderProps = {
