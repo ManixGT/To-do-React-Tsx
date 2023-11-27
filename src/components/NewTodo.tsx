@@ -1,6 +1,5 @@
 import { useSearchParams } from "react-router-dom";
 import { useTodos } from "../store/todos";
-import React from "react";
 
 export const NewTodo = () => {
     const { todos, toggleTodoAsCompleted, handleDeleteTodo } = useTodos();

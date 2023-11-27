@@ -1,6 +1,5 @@
 import { FormEvent, useState } from "react"
 import { useTodos } from "../store/todos";
-import React from "react";
 
 export default function AddToDo() {
   const [todo, setTodo] = useState("");
